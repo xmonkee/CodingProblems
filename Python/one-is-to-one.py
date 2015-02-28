@@ -19,4 +19,4 @@ def compall(in1, in2):
         [w for w in [word.split() for word in words(in2, len(in1))]])
 
 
-print compall(['a','a','b','c'], 'applebananaspplpear')
+print compall(['a','a','a','c','c','d','b','q'], 'applebananaspplpear')
