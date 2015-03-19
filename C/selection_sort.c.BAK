@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct LL {
+	int		val;
+   struct LL      *next;
+}		List;
+
+List           *
+cons(int car, List * cdr)
+{
+	List           *new;
+	new->val = car;
+	new->next = cdr;
+	return new;
+}
+
+void
+list_print(List * list)
+{
+	while () {
+	}
+}
+
+
+
+
+int 
+main(int argc, char **argv)
+{
+	int		i;
+	List           *list = NULL;
+	for (i = 0; i < 100; ++i) {
+		list = cons(i, list);
+	}
+
+}

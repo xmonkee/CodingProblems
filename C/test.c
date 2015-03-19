@@ -2,9 +2,10 @@
 
 int main(void)
 {
-	    int i = 10;
-
-	        printf("The value of i is %d, and its address is %d\n", i, &i);
-
-		    return 0;
+   int i = 10;
+   printf("The value of i is %d, and its address is %d\n", i, &i);
+   return 0;
 }
+
+
+
